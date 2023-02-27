@@ -1,8 +1,7 @@
 <!doctype html>
 <html>
+<?php echo link_tag('css/style.css'); ?>
 <head>
-    <title>CodeIgniter Tutorial</title>
+    <title>My Personal Website</title>
 </head>
 <body>
-
-    <h1><?= esc($title) ?></h1>

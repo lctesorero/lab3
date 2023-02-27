@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php echo link_tag('css/style.css'); ?>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +23,7 @@
       <div class="L">
         <nav>
             <ul>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="Home.php">Home</a></li>
                   <li><a href="About Me.php">About_Me</a></li>
                   <li><a href="Gallery.php">Gallery</a></li>
                   <li><a href="Form.php">Form</a></li>
@@ -39,119 +40,119 @@
             </br>
  <input type="radio" name="Photos" id="check1" checked>
 
- <div clas ="container">
+ <div class ="container">
     <h1>My Gallery</h1>
 
     </div>
   </center>
     <div class="photo-gallery">
       <div class="pic moments">
-        <img src="mm1.jpg">
+        <img src="images/mm1.jpg">
       </div>
       <div class="pic family">
-        <img src="fam1.jpg">
+        <img src="images/fam1.jpg">
       </div>
       <div class="pic school">
-        <img src="sc1.jpg">
+        <img src="images/sc1.jpg">
       </div>
       <div class="pic church">
-        <img src="c1.jpg">
+        <img src="images/c1.jpg">
       </div>
       <div class="pic moments">
-        <img src="mm2.jpg">
+        <img src="images/mm2.jpg">
       </div>
       <div class="pic family">
-        <img src="fam2.jpg">
+        <img src="images/fam2.jpg">
       </div>
       <div class="pic school">
-        <img src="sc2.jpg">
+        <img src="images/sc2.jpg">
       </div>
       <div class="pic church">
-        <img src="c2.jpg">
+        <img src="images/c2.jpg">
       </div>
       <div class="pic moments">
-        <img src="mm3.jpg">
+        <img src="images/mm3.jpg">
       </div>
       <div class="pic family">
-        <img src="fam3.jpg">
+        <img src="images/fam3.jpg">
       </div>
       <div class="pic school">
-        <img src="sc3.jpg">
+        <img src="images/sc3.jpg">
       </div>
       <div class="pic church">
-        <img src="c3.jpg">
+        <img src="images/c3.jpg">
       </div>
       <div class="pic moments">
-        <img src="mm4.jpg">
+        <img src="images/mm4.jpg">
       </div>
       <div class="pic family">
-        <img src="fam4.jpg">
+        <img src="images/fam4.jpg">
       </div>
       <div class="pic school">
-        <img src="sc4.jpg">
+        <img src="images/sc4.jpg">
       </div>
       <div class="pic church">
-        <img src="c4.jpg">
+        <img src="images/c4.jpg">
       </div>
       <div class="pic moments">
-        <img src="mm5.jpg">
+        <img src="images/mm5.jpg">
       </div>
       <div class="pic family">
-        <img src="fam5.jpg">
+        <img src="images/fam5.jpg">
       </div>
       <div class="pic school">
-        <img src="sc5.jpg">
+        <img src="images/sc5.jpg">
       </div>
       <div class="pic church">
-        <img src="c5.jpg">
+        <img src="images/c5.jpg">
       </div>
       <div class="pic moments">
-        <img src="mm6.jpg">
+        <img src="images/mm6.jpg">
       </div>
       <div class="pic family">
-        <img src="fam6.jpg">
+        <img src="images/fam6.jpg">
       </div>
       <div class="pic school">
-        <img src="sc6.jpg">
+        <img src="images/sc6.jpg">
       </div>
       <div class="pic church">
-        <img src="c6.jpg">
+        <img src="images/c6.jpg">
       </div>
       <div class="pic moments">
-        <img src="mm7.jpg">
+        <img src="images/mm7.jpg">
       </div>
       <div class="pic family">
-        <img src="fam7.jpg">
+        <img src="images/fam7.jpg">
       </div>
       <div class="pic school">
-        <img src="sc7.jpg">
+        <img src="images/sc7.jpg">
       </div>
       <div class="pic church">
-        <img src="c7.jpg">
+        <img src="images/c7.jpg">
       </div>
       <div class="pic moments">
-        <img src="mm8.jpg">
+        <img src="images/mm8.jpg">
       </div>
       <div class="pic family">
-        <img src="fam8.jpg">
+        <img src="images/fam8.jpg">
       </div>
       <div class="pic school">
-        <img src="sc8.jpg">
+        <img src="images/sc8.jpg">
       </div>
       <div class="pic church">
-        <img src="c8.jpg">
+        <img src="images/c8.jpg">
       </div>
       <div class="pic moments">
-        <img src="mm9.jpg">
+        <img src="images/mm9.jpg">
       </div>
       <div class="pic family">
-        <img src="fam9.jpg">
+        <img src="images/fam3.jpg">
       </div>
       <div class="pic school">
-        <img src="sc9.jpg">
+        <img src="images/sc9.jpg">
       </div>
       <div class="pic church">
-        <img src="c9.jpg">
+        <img src="images/c9.jpg">
       </div>
 
     </div>
@@ -161,6 +162,8 @@
   <source src="Kauai.ogg" type="audio/ogg">
   <source src="Kauai.mp3" type="audio/mpeg">
 </audio>
+</br>
+</br>
 </br>
 </body>
 </html>

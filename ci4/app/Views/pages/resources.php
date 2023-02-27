@@ -96,5 +96,7 @@
             <a class="one" href="https://www.w3schools.com/php/default.asp" target="_blank">W3Schools PHP Tutorial </br> </a>
           </p>
       </center>
+</br>
+</br>
     </body>
 </html>
