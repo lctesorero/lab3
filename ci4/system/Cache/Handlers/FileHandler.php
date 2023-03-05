@@ -57,6 +57,7 @@ class FileHandler extends BaseHandler
 
         $this->path = ! empty($config->file['storePath']) ? $config->file['storePath'] : WRITEPATH . 'cache';
         $this->path = rtrim($this->path, '/') . '/';
+ 
 
         if (! is_really_writable($this->path)) {
             throw CacheException::forUnableToWrite($this->path);
