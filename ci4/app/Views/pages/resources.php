@@ -66,11 +66,11 @@
               <div class="L">
                 <nav>
                     <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="About Me.php">About_Me</a></li>
-                        <li><a href="Gallery.php">Gallery</a></li>
-                        <li><a href="Form.php">Form</a></li>
-                        <li><a href="Resources.php">Resources</a></li>
+                        <li><a href="Home">Home</a></li>
+                        <li><a href="About Me">About_Me</a></li>
+                        <li><a href="Gallery">Gallery</a></li>
+                        <li><a href="Form">Form</a></li>
+                        <li><a href="Resources">Resources</a></li>
                     </ul> 
                 </nav>
             </div>

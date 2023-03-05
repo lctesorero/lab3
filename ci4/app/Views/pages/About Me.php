@@ -55,11 +55,11 @@
       <div class="L">
           <nav>
               <ul>
-                  <li><a href="index.php">Home</a></li>
-                  <li><a href="About Me.php">About_Me</a></li>
-                  <li><a href="Gallery.php">Gallery</a></li>
-                  <li><a href="Form.php">Form</a></li>
-                  <li><a href="Resources.php">Resources</a></li>
+                  <li><a href="Home">Home</a></li>
+                  <li><a href="About Me">About_Me</a></li>
+                  <li><a href="Gallery">Gallery</a></li>
+                  <li><a href="Form">Form</a></li>
+                  <li><a href="Resources">Resources</a></li>
               </ul> 
           </nav>
       </div>
@@ -70,7 +70,7 @@
           <hr width="100%" color="#c89595" size="3" />
           </br>
           <p class="double">
-          <img src="lyka.jpg"width="200" height="320" style="border: 5px dashed white;" alt="">
+          <img src="images/lyka.jpg"width="200" height="320" style="border: 5px dashed white;" alt="">
         </p>
           <br>
           
