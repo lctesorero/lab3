@@ -5,7 +5,33 @@
 
 <form action="create" method="post">
     <?= csrf_field() ?>
+<style>
+    body {
+        background-color: #161616;
+        color: whitesmoke;
+        }
 
+    h2{
+        font-family:'Times New Roman', Times, serif;
+        color: #c89595;
+        font-size: 40px;
+        text-align: center;
+    }
+    h3 {
+        color: #ffb3c6;
+        font-family:'Times New Roman', Times, serif;
+        text-align: left;
+        font-size: 25px;
+    }
+
+    a {
+        color: #c89595;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+</style>
     </br>
     <label for="title">Title</label>
     </br>
