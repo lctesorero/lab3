@@ -1,6 +1,34 @@
 <h2><?= esc($title) ?></h2>
+<style>
+    body {
+        background-color: #161616;
+        color: whitesmoke;
+        }
+
+    h2{
+        font-family:'Times New Roman', Times, serif;
+        color: #c89595;
+        font-size: 40px;
+        text-align: center;
+    }
+    h3 {
+        color: #ffb3c6;
+        font-family:'Times New Roman', Times, serif;
+        text-align: left;
+        font-size: 25px;
+    }
+
+    a {
+        color: #c89595;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+</style>
 
 <?php if (! empty($news) && is_array($news)): ?>
+
 
     <?php foreach ($news as $news_item): ?>
 
@@ -9,11 +37,10 @@
         <div class="main">
             <?= esc($news_item['body']) ?>
         </div>
-<<<<<<< HEAD
         <p><a href="/lab3/ci4/public/news/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
-=======
-        <p><a href="/~lctesorero/lab3/ci4/public/news/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
->>>>>>> dcd1088b5fb99c12fea7a9b8a7d3861042412cdc
+	</br>
+
+
 
     <?php endforeach ?>
 
