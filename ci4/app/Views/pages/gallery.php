@@ -67,6 +67,7 @@ nav ul li {
   display: inline-block;
   list-style: none;
   margin: 10px 20px;
+  font-size: 21px;
   }
   
 nav ul li a {
@@ -205,12 +206,15 @@ label {
   position: relative;
   transition: .5s;
 }
+p.double {border-style: double; border-color: whitesmoke; padding: 10px; height: 335px; width: 225px;}
+p.dotted {border-style: dotted; border-color: whitesmoke; padding: 15px; height: 320px; width: 1200px; align-items: center; }
   </style>
+
       <div class="L">
         <nav>
             <ul>
             <li><a href="Home">Home</a></li>
-                  <li><a href="About Me">About_Me</a></li>
+            <li><a href="AboutMe">About</a></li>
                   <li><a href="Gallery">Gallery</a></li>
                   <li><a href="Form">Form</a></li>
                   <li><a href="Resources">Resources</a></li>
@@ -220,10 +224,10 @@ label {
     </br>
 
 <center>
-  <hr width="100%" color="8a3a3a" size="2" />
-            </br>
-            <hr width="90%" color="#c89595" size="3" />
-            </br>
+  <hr width="100%" color="8a3a3a" size="3" />
+          </br> </br>
+          <hr width="100%" color="#c89595" size="3" />
+          </br>
  <input type="radio" name="Photos" id="check1" checked>
 
  <div class ="container">

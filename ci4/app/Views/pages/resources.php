@@ -14,10 +14,51 @@
       
       <body>
               <style>
+                body {
+                  background-color: #161616;
+                  color: whitesmoke;
+                }
+                nav ul {
+                  flex: 1;
+                  text-align: right;
+                  }
+                  
+                .L {
+                  height: 10vh;
+                  width: 100%;
+                  background: #161616;
+                  font-family:'Times New Roman', Times, serif;
+                  position: relative;
+                  }
+                  
+                nav {
+                  width: 84;
+                  margin: auto;
+                  padding: 20px 0;
+                  display:flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  }
+
+                nav ul li {
+                  display: inline-block;
+                  list-style: none;
+                  margin: 10px 20px;
+                  font-size: 21px;
+                  }
+                  
+                nav ul li a {
+                  text-decoration: none;
+                  color: whitesmoke;
+                  }
+                  
+                nav ul li a:hover {
+                  color: #ff4321;
+                  }
                 .list {
-            font-size: 20px;
-            }
-      
+                  font-size: 30px;
+                  }
+            
                 h2{
                   font-family: 'Times New Roman', Times, serif;
                   color: #e2c4c4;
@@ -62,12 +103,12 @@
                     text-decoration:underline;
                   }
               </style>
-          
+              </br>
               <div class="L">
                 <nav>
                     <ul>
                         <li><a href="Home">Home</a></li>
-                        <li><a href="About Me">About_Me</a></li>
+                        <li><a href="AboutMe">About</a></li>
                         <li><a href="Gallery">Gallery</a></li>
                         <li><a href="Form">Form</a></li>
                         <li><a href="Resources">Resources</a></li>
@@ -76,16 +117,18 @@
             </div>
             <center>
             </br>
-              <hr width="100%" color="8a3a3a" size="2" />
-                  </br>
-                  <hr width="90%" color="#c89595" size="3" />
+            <hr width="100%" color="8a3a3a" size="3" />
+          </br></br>
+          <hr width="100%" color="#c89595" size="4" />
+          </br>
                   </br></br></br>
                  
             <b><p class="double">HTML & CSS</p></b>
           </br>
           
           <p class="dotted">
-          <a class="one" href="https://www.w3schools.com/php/php_form_complete.asp" target="_blank">Form</br></a>
+            <a class="one" href="https://codeigniter4.github.io/userguide/intro/index.html" target="_blank">CodeIgniter4 </br></a>
+            <a class="one" href="https://www.w3schools.com/php/php_form_complete.asp" target="_blank">Form</br></a>
             <a class="one" href="https://www.youtube.com/watch?v=U-CujW5OlW0" target="_blank">Gallery</br></a>
             <a class="one" href="https://fonts.google.com/?preview.size=45&preview.text=Bonjour!&preview.text_type=custom" target="_blank">Google Fonts</br></a>
             <a class="one" href="https://www.youtube.com/watch?v=Y-NlvkKO90o&t=1s" target="_blank">Minimal Cat Animation</br></a>

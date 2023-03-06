@@ -11,14 +11,61 @@
 </head>
 <body>
     <style>
-    .list {
-      display: block;
-      column-count: 3;
-      padding-left: 200px;
-      margin-left: 110px;
-      margin-right: 20px;
-      position: center;
-      font-size: 20px;
+    	body {
+  		background-color: #161616;
+  		color: whitesmoke;
+	    }
+      nav ul {
+        flex: 1;
+        text-align: right;
+        }
+        
+      .L {
+        height: 10vh;
+        width: 100%;
+        background: #161616;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+        }
+        
+      nav {
+        width: 84;
+        margin: auto;
+        padding: 20px 0;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+
+      nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+        font-size: 21px;
+        }
+        
+      nav ul li a {
+        text-decoration: none;
+        color: whitesmoke;
+        }
+        
+      nav ul li a:hover {
+        color: #ff4321;
+        }
+      h2{
+          font-family:'Times New Roman', Times, serif;
+          color: #c89595;
+          font-size: 40px;
+          text-align: center;
+      }
+    	.list {
+      	display: block;
+      	column-count: 3;
+      	padding-left: 200px;
+      	margin-left: 110px;
+      	margin-right: 20px;
+      	position: center;
+      	font-size: 20px;
       }
       img {
         float: left;
@@ -39,6 +86,7 @@
         
         p {
           font-size: 20px;
+	    text-align: center;
         }
         p.double {border-style: double; border-color: whitesmoke; padding: 10px; height: 335px; width: 225px;}
         p.dotted {border-style: dotted; border-color: whitesmoke; padding: 15px; height: 320px; 
@@ -56,7 +104,7 @@
           <nav>
               <ul>
                   <li><a href="Home">Home</a></li>
-                  <li><a href="About Me">About_Me</a></li>
+                  <li><a href="AboutMe">About</a></li>
                   <li><a href="Gallery">Gallery</a></li>
                   <li><a href="Form">Form</a></li>
                   <li><a href="Resources">Resources</a></li>
@@ -65,7 +113,7 @@
       </div>
     </br>
       <center>
-      <hr width="100%" color="8a3a3a" size="2" />
+      <hr width="100%" color="8a3a3a" size="3" />
           </br> 
           <hr width="100%" color="#c89595" size="3" />
           </br>
@@ -95,7 +143,6 @@
             <hr width="100%" color="8a3a3a" size="2" />
         <br>
         <h2>My Hobbies</h2>
-        <br>
             <p>In my leisure time, I find solace in activities such as sleeping, watching Kdramas and movies, listening to music and spending time with my beloved 
               companion, my dog Lucky.</p>
           <br>
@@ -242,7 +289,6 @@
               <input type="date" id="birthdate">
               <button type="submit" onclick="submitForm(event)">Submit</button>
           </form>
-          </br>
           <p id="result"></p>
           <script>
           function zodiac_sign(day, month) {
@@ -345,8 +391,6 @@
             }
           </script>
           </br>
-        </br>
-      </br>
             </center>
 </br>
 </br>

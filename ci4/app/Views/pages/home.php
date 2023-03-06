@@ -13,7 +13,10 @@
 
 <body>
   <style>
-
+    body {
+  		background-color: #161616;
+  		color: whitesmoke;
+	    }
     .cat {
     position: relative;
     height: 200px;
@@ -245,7 +248,7 @@
             margin-right: 5px;
           }
           </style>
-        <a href="About Me">Bonjour, Bienvenue sur Mon Site Web!</a></button>
+        <a href="AboutMe">Bonjour, Bienvenue sur Mon Site Web!</a></button>
         </br>
         </br>
         </br>
