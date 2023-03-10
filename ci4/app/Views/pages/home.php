@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Personal Website</title>
-  <link rel="stylesheet" href="style.css" title="type" />
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amita&family=Cinzel+Decorative:wght@400;700&family=Clicker+Script&family=Delius+Unicase&family=Irish+Grover&family=Itim&family=Mountains+of+Christmas:wght@400;700&family=Nunito:wght@500&family=Signika+Negative:wght@700&display=swap" rel="stylesheet">
 
     </head>
 
@@ -242,7 +240,7 @@
           a {
             font-family: 'Mountains of Christmas', cursive;
             color: var(--secondary-color);
-            font-size: 50px;
+            font-size: 30px;
             text-align: center;
             margin-left: 5px ;
             margin-right: 5px;

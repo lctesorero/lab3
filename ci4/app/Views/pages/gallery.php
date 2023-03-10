@@ -5,10 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Personal Website</title>
-  <link rel="stylesheet" href="Gallery.css" title="type" />
-  <script>Resources.js</script>
+  <?php echo link_tag('css/Gallery.css'); ?>
 
-  <link href="https://fonts.googleapis.com/css2?family=Amita&family=Cabin+Sketch:wght@700&family=Cinzel+Decorative:wght@400;700&family=Clicker+Script&family=Delius+Unicase&family=Fredoka+One&family=Irish+Grover&family=Itim&family=Macondo&family=Mountains+of+Christmas:wght@400;700&family=Nunito:wght@500&family=Signika+Negative:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>

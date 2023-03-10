@@ -6,100 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Personal Website</title>
-  <link rel="stylesheet" href="style.css" title="type" />
-  <link href="https://fonts.googleapis.com/css2?family=Amita&family=Cabin+Sketch:wght@700&family=Cinzel+Decorative:wght@400;700&family=Clicker+Script&family=Delius+Unicase&family=Fredoka+One&family=Irish+Grover&family=Itim&family=Macondo&family=Mountains+of+Christmas:wght@400;700&family=Nunito:wght@500&family=Signika+Negative:wght@700&display=swap" rel="stylesheet">
+  <?php echo link_tag('css/style.css'); ?>
 </head>
 <body>
     <style>
-    	body {
-  		background-color: #161616;
-  		color: whitesmoke;
-	    }
-      nav ul {
-        flex: 1;
-        text-align: right;
-        }
-        
-      .L {
-        height: 10vh;
-        width: 100%;
-        background: #161616;
-        font-family:'Times New Roman', Times, serif;
-        position: relative;
-        }
-        
-      nav {
-        width: 84;
-        margin: auto;
-        padding: 20px 0;
-        display:flex;
-        align-items: center;
-        justify-content: space-between;
-        }
-
-      nav ul li {
-        display: inline-block;
-        list-style: none;
-        margin: 10px 20px;
-        font-size: 21px;
-        }
-        
-      nav ul li a {
-        text-decoration: none;
-        color: whitesmoke;
-        }
-        
-      nav ul li a:hover {
-        color: #ff4321;
-        }
       h2{
           font-family:'Times New Roman', Times, serif;
           color: #c89595;
           font-size: 40px;
           text-align: center;
       }
-    	.list {
-      	display: block;
-      	column-count: 3;
-      	padding-left: 200px;
-      	margin-left: 110px;
-      	margin-right: 20px;
-      	position: center;
-      	font-size: 20px;
-      }
       img {
         float: left;
         margin-left: 10px;
       }
-    button{
-       margin: 20px;
-       margin-top: 15px;
-        }
-    .list {
-        display: block;
-        column-count: 3;
-        padding-left: 200px;
-        margin-left: 110px;
-        margin-right: 20px;
-        position: center;
+      button{
+        margin: 20px;
+        margin-top: 15px;
+      }
+      .list {
+          display: block;
+          column-count: 3;
+          padding-left: 200px;
+          margin-left: 110px;
+          margin-right: 20px;
+          position: center;
         }
         
-        p {
-          font-size: 20px;
-	    text-align: center;
-        }
-        p.double {border-style: double; border-color: whitesmoke; padding: 10px; height: 335px; width: 225px;}
-        p.dotted {border-style: dotted; border-color: whitesmoke; padding: 15px; height: 320px; 
+      p {
+        font-size: 20px;
+	      text-align: center;
+      }
+      p.double {border-style: double; border-color: whitesmoke; padding: 10px; height: 335px; width: 225px;}
+      p.dotted {border-style: dotted; border-color: whitesmoke; padding: 15px; height: 320px; 
           width: 1200px; align-items: center; text-align: left;}
-          a {
-            color: whitesmoke;
-            font-family:'Times New Roman', Times, serif;
-            text-align: center;
-            margin-left: 10%;
-            margin-right: 10%;
-            font-size: 20px;
-          }
           </style>
+
       <div class="L">
           <nav>
               <ul>
@@ -112,7 +54,9 @@
           </nav>
       </div>
     </br>
+
       <center>
+
       <hr width="100%" color="8a3a3a" size="3" />
           </br> 
           <hr width="100%" color="#c89595" size="3" />
@@ -143,16 +87,17 @@
             <hr width="100%" color="8a3a3a" size="2" />
         <br>
         <h2>My Hobbies</h2>
+        </br>
             <p>In my leisure time, I find solace in activities such as sleeping, watching Kdramas and movies, listening to music and spending time with my beloved 
               companion, my dog Lucky.</p>
-          <br>
+      </br>
         </center>
             <hr width="100%" color="8a3a3a" size="2" />
             </br>
             <hr width="100%" color="#c89595" size="3" />
             </br>
             <hr width="100%" color="8a3a3a" size="2" />
-          </br>
+            </br>
         <div class="image">
         <h2>Music I'm Into</h2>
         <br>
@@ -180,9 +125,10 @@
             <hr width="100%" color="#c89595" size="3" />
             </br>
             <hr width="100%" color="8a3a3a" size="2" />
-          </br>
+            </br>
        
-            <h2>Movies I'm Into</h2>
+            <h2>Movies I'm Into</h2> 
+            </br>
             <ul class="list">
             <li>The Beauty Inside</li>
             <li>Cassiopeia</li>
@@ -204,7 +150,7 @@
             <p>“In this life, you don’t have to prove nothin’ to nobody but yourself. And after what you’ve gone through, if you haven’t done that by now, it ain’t gonna never happen. Now go on back.” </p>
             <p>– Fortune</p> 
             </br>
-          </br>
+            </br>
 
             <hr width="100%" color="8a3a3a" size="2" />
             </br>
@@ -215,58 +161,60 @@
             <h2>Recommended Kdrama</h2>
             <br>
           <ul class="list">
-          <li>Moon Embracing the Sun</li>
-          <li>Something in the Rain</li>
-          <li>A Piece of your Mind</li> 
-          <li>While You Were sleeping</li>
-          <li>It's Okay Not to Be okay</li>
-          <li>Descendants of the Sun</li>
-          <li>The Queens Umbrella</li>
-          <li>Tale of Nine Tailed</li>
-          <li>Alchemy of Souls </li>         
-          <li>The Uncanny Counter</li>
-          <li>Are You Human Too</li>
-          <li>Let's Fight Ghost</li>
-          <li>Uncontrollably Fond</li>
-          <li>D Day</li>
-          <li>Snowdrop</li>
-          <li>Dream High</li>
-          <li>City Hunter</li>
-          <li>School 2015</li>
-          <li>Why Her?</li>
-          <li>Start Up</li>
-          <li>Tomorrow</li>
-          <li>Goblin</li>
-          <li>Save Me</li>
-          <li>Healer</li>
-          <li>Memorist</li>
-          <li>Pinocchio</li>
-          <li>Dr. Romantic</li>
-          <li>Ghost Doctor</li>
-          <li>Doctor stranger</li>
-          <li>W Two Worlds</li>
-          <li>It's Okay That's Love</li>
-          <li>He is Psychometric</li>
-          <li>Hi Bye Mama</li>
-          <li>The Red Sleeve</li>
-          <li>Scarlet Heart Ryeo</li>
-          <li>The Beauty Inside</li>
-          <li>My Golden Life</li>
-          <li>Doom at Your Service</li>
-          <li>It's Okay That's Love</li>
+            <li>Moon Embracing the Sun</li>
+            <li>Something in the Rain</li>
+            <li>A Piece of your Mind</li> 
+            <li>While You Were sleeping</li>
+            <li>It's Okay Not to Be okay</li>
+            <li>Descendants of the Sun</li>
+            <li>The Queens Umbrella</li>
+            <li>Tale of Nine Tailed</li>
+            <li>Alchemy of Souls </li>         
+            <li>The Uncanny Counter</li>
+            <li>Are You Human Too</li>
+            <li>Let's Fight Ghost</li>
+            <li>Uncontrollably Fond</li>
+            <li>D Day</li>
+            <li>Snowdrop</li>
+            <li>Dream High</li>
+            <li>City Hunter</li>
+            <li>School 2015</li>
+            <li>Why Her?</li>
+            <li>Start Up</li>
+            <li>Tomorrow</li>
+            <li>Goblin</li>
+            <li>Save Me</li>
+            <li>Healer</li>
+            <li>Memorist</li>
+            <li>Pinocchio</li>
+            <li>Dr. Romantic</li>
+            <li>Ghost Doctor</li>
+            <li>Doctor stranger</li>
+            <li>W Two Worlds</li>
+            <li>It's Okay That's Love</li>
+            <li>He is Psychometric</li>
+            <li>Hi Bye Mama</li>
+            <li>The Red Sleeve</li>
+            <li>Scarlet Heart Ryeo</li>
+            <li>The Beauty Inside</li>
+            <li>My Golden Life</li>
+            <li>Doom at Your Service</li>
+            <li>It's Okay That's Love</li>
           </ul>
           </br>
           <p>“Life isn’t so fair for all of us. Some spend their whole lives on unpaved roads, while some run at full speed only to reach the edge of a cliff.” </p>
           <p>– Hometown Cha-Cha-Cha</p>
           </br>
-        </br>
+          </br>
           </div>
+
           <hr width="100%" color="8a3a3a" size="2" />
           </br>
           <hr width="100%" color="#c89595" size="3" />
           </br>
-            <hr width="100%" color="8a3a3a" size="2" />
-              </div>
+          <hr width="100%" color="8a3a3a" size="2" />
+            </div>
+
             <center>
             </br>
             <style>
@@ -283,6 +231,7 @@
                 font-size: 30px;
               }
             </style>
+
             <h1>Find out which astrological sign you belong to</h1>
             <form id="myForm" onsubmit="submitForm(event)">
               <label>Enter your birth date:</label>
@@ -290,6 +239,7 @@
               <button type="submit" onclick="submitForm(event)">Submit</button>
           </form>
           <p id="result"></p>
+
           <script>
           function zodiac_sign(day, month) {
                 let astro_sign = "";
@@ -377,6 +327,7 @@
                 }
                 return astro_sign;
               }
+
           // Function to submit 
               function submitForm(event) {
                 event.preventDefault();
@@ -392,8 +343,6 @@
           </script>
           </br>
             </center>
-</br>
-</br>
-
+          </br>
     </body>
 </html>
